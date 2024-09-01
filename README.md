@@ -1,4 +1,6 @@
 # shapefile-infrastructures
+
+### Process Diagram:
 ![DRIVE](Process.jpg)
 
 
@@ -58,6 +60,11 @@ python setup.py bdist_wheel
 2.3. Activate the API key for PYPI.
 
 ```shell
-conda create -n shapefileenv python=3.8 -y
-conda activate shapefileenv
+$env:TWINE_PASSWORD="api-key"
+```
+
+2.4. Store the wheel file in PYPI.
+
+```shell
+twine upload dist/*
 ```
