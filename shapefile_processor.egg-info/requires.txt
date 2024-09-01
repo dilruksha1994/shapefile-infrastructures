@@ -2,6 +2,6 @@ azure-storage-blob
 geopandas
 psycopg2
 sqlalchemy
-fastapi 
+fastapi
 uvicorn
 twine
