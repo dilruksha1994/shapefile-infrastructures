@@ -1,0 +1,8 @@
+README.md
+setup.py
+shapefile_processor.egg-info/PKG-INFO
+shapefile_processor.egg-info/SOURCES.txt
+shapefile_processor.egg-info/dependency_links.txt
+shapefile_processor.egg-info/entry_points.txt
+shapefile_processor.egg-info/requires.txt
+shapefile_processor.egg-info/top_level.txt
