@@ -34,10 +34,10 @@ uvicorn main:app --reload
 1.5. POST method to process the sharefile. Please refer this link (`http://127.0.0.1:8000/docs/`) to see the API documentstion.
 
 ```shell
-uvicorn main:app --reload 
+http://127.0.0.1:8000/process-shapefile/
 ```
 
-1.6 Deploy the FastAPI app in Azure App Services.
+1.6 Deploy the FastAPI app in Azure App Services to process the sharefile.
 
 ```shell
 https://as-shapefile-sasia.azurewebsites.net/process-shapefile/
